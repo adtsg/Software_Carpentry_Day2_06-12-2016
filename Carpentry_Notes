@@ -1,0 +1,31 @@
+New stuff learnt from Software Carpentary Workshop
+# Use explainshell finding out meaning of commands
+# wordcount: use wc 
+# nano text editor
+# less
+# word count of all the files: wc -l *.pdb
+# > character which redirects the output to a filename
+# sort -n (sorts files according to the counts the files have)
+# | pipe character: you make a pipe to feed output of one into input of another. you 
+bypass many steps in this case...convenient.You can then give a function to this 
+workflow and basically create your own workflow. Whenever you use | , it has to be 
+followed by a command (like sort or head or less).
+# Call command
+# grep command..you can grep the output into a pipe output
+# cut command: calls one column # check in explain shell for fields and delimiters
+# sed 's/=/,/' where s =substitute,= is the sign you want to change , is the sign you 
+want to change to  
+
+#PYTHON
+List []
+Tuple ()
+Dictionary {}
+Indentation is super important in Python
+
+#GIT
+git clone to get stuff from cloud
+
+# to push to git cloud
+git add
+git commit -m "make yourself a note"
+git push
